@@ -15,7 +15,7 @@
  */
 
 terraform {
-  required_version = ">= 0.13"
+  required_version = ">=0.15"
   required_providers {
     google = {
       // version 4.31.0 removed because of issue https://github.com/hashicorp/terraform-provider-google/issues/12226
