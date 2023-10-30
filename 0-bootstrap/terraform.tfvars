@@ -18,9 +18,9 @@ org_id = "924528556381" # format "000000000000"
 
 billing_account = "01D150-FF573B-1DFCE3" # format "000000-000000-000000"
 
-group_org_admins = "gcp@asfars.top"
+group_org_admins = "group-org-admins@asfars.top"
 
-group_billing_admins = "gcp@asfars.top"
+group_billing_admins = "gcp-billing-admins@asfars.top"
 
 # Example of values for the groups
 # group_org_admins = "gcp-organization-admins@example.com"
