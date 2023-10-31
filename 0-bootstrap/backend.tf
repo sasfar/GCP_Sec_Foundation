@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-# terraform {
-#   backend "gcs" {
-#     bucket = "tf-state-bkt1"
-#     prefix = "terraform/bootstrap/state"
-#   }
-# }
+ terraform {
+   backend "gcs" {
+     bucket = "bkt-prj-b-seed-tfstate-47b6"
+     prefix = "terraform/bootstrap/state"
+   }
+ }

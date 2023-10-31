@@ -203,7 +203,7 @@ your current Jenkins manager (controller) environment.
    cd ..
 
    for i in `find -name 'backend.tf'`; do sed -i "s/UPDATE_ME/${backend_bucket}/" $i; done
-   for i in `find -name 'backend.tf'`; do sed -i "s/UPDATE_PROJECTS_BACKEND/${backend_bucket_projects}/" $i; done
+   for i in `find -name 'backend.tf'`; do sed -i "s/bkt-prj-b-seed-18b1-gcp-projects-tfstate/${backend_bucket_projects}/" $i; done
 
    cd 0-bootstrap
    ```

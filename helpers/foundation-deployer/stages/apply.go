@@ -111,7 +111,7 @@ func DeployBootstrapStage(t testing.TB, s steps.Steps, tfvars GlobalTFVars, c Co
 			if err != nil {
 				return err
 			}
-			err = utils.ReplaceStringInFile(file, "UPDATE_PROJECTS_BACKEND", backendBucketProjects)
+			err = utils.ReplaceStringInFile(file, "bkt-prj-b-seed-18b1-gcp-projects-tfstate", backendBucketProjects)
 			if err != nil {
 				return err
 			}

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-terraform {
-  backend "gcs" {
-    bucket = "bkt-prj-b-seed-18b1-gcp-projects-tfstate"
-    prefix = "terraform/projects/business_unit_1/development"
-  }
-}
+ terraform {
+   backend "gcs" {
+     bucket = "UPDATE_ME"
+     prefix = "terraform/bootstrap/state"
+   }
+ }
